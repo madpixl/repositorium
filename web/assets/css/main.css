@@ -1,0 +1,71 @@
+@import url("bootstrap.css");
+@import url("font-awesome.min.css");
+@import url("dealertrack.css");
+@import url("jquery-ui-1.9.2.custom.min.css");
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+#app-nav {
+background-color:#ebebe9;
+margin-top:53px;
+}
+
+#app-nav.navbar-nav h2 {
+     margin:0;
+   
+    background-color: #1d2c33; /* layer fill content */
+    list-style-type:none;
+    font-family:"helvetica neue bold",Helvetica,Arial;
+    color:#ffffff;
+    width:100%;
+    font-size:1.5em ;
+    font-weight:bold;
+    display:block;
+    padding: .5em 2em .5em .5em;
+    text-align:left!important;
+} 
+
+/* accordion */
+
+#app-nav .accordion-group {
+    margin-bottom: 0px;
+    border:0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    list-style:none;
+}    
+
+#app-nav .accordion-heading {
+      margin:0;
+    border-top: 1px solid #717171; /* inner stroke */
+     background-color: transparent; /* layer fill content */
+    list-style-type:none;
+}  
+#app-nav    ul { 
+list-style:none;
+background-color:transparent;
+}
+#app-nav .accordion-heading  a{  
+    
+    text-decoration:none; 
+    font-size:.65em;
+    line-height:2.5em;
+    padding:1em 2em;
+    color:#454545
+}
+
+#app-nav .accordion-heading  a:hover{  
+    color:#ffffff;
+    bacground-color:#00549f;     
+}
+
+#app-nav .accordion-heading .active {
+    width: 182px;
+    height: 34px;
+    border: 1px solid #5b5b5b; /* inner stroke */
+    background-color: #003366; /* layer fill content */
+     
+}
+/* end accordion */
